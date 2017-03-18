@@ -3,18 +3,16 @@
 # Programa para realizar respaldos de documentacion
 
 #ambos son equivalenrtes
-current_pwd=`pwd`
-current_pwd=$(pwd)
 
- 
-cd /usr/share/doc
-echo reportes: >> /tmp/reportes
+#read -p "Ingrese ruta a respaldar: " dir
+read "Ingrese ruta a respaldar:" 
+read dir
+
+echo "reportes:" >> /tmp/reportes
 date >> /tmp/reportes
-pwd >> /tmp/reportes
-du -sh . >> /tmp/reportes
+echo $dir >> /tmp/reportes
+du -sh $dir >> /tmp/reportes
 
 echo Path de ejecucion `pwd`
 
-
-cd $current_pwd
-
+exit 0 
