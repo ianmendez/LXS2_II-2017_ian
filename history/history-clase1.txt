@@ -1,0 +1,355 @@
+    1  su - soporte
+    2  type git
+    3  cd
+    4  cd Documentos/
+    5  ls
+    6  cd descargas
+    7  cd downloads
+    8  cd Downloads
+    9  ls
+   10  cd Documents
+   11  ls}
+   12  cd
+   13  ls
+   14  cd docuements
+   15  cd Documents
+   16  ls
+   17  mkdir LXS2_II-2017_ian
+   18  cd LXS2_II-2017_ian
+   19  git init
+   20  tree -la
+   21  tree -a
+   22  su - soporte
+   23  tree -a
+   24  ls -la
+   25  git config --global user.name "ian Mendez A"
+   26  vim.gitignore
+   27  mkdir src
+   28  mkdir misc
+   29  ls
+   30  ls -ls
+   31  ls -la
+   32  mkdir data
+   33  mkdir logs
+   34  tree -a
+   35  touch logs/file1
+   36  touch {misc,src,data}/file1
+   37  tree
+   38  git add -a
+   39  git add --all
+   40  git status
+   41  git commit -m
+   42  git commit -m "inicio de la estructura de mi repo"
+   43  touch data/file2
+   44  git status
+   45  last > misc/ultimo-acceso.log
+   46  head dmesg >> dta/gile1
+   47  ls data/
+   48  dmesg | head >> data/file1
+   49  git status
+   50  git add data/file1
+   51  git add data/file2
+   52  git status
+   53  git commit -m "dos nuevos archivos"
+   54  git log
+   55  git remote add origin https://github.com/ianmendez/LXS2_II-2017_ian.git
+   56  git remote -v
+   57  git push -u origin master
+   58  git status
+   59  git config --global user.email 
+   60  git config --global user.email "alex29mendez@hotmail.com"
+   61  git status
+   62  git commit -m "commit inicial"
+   63  git status
+   64  git log
+   65  git push -u origin master
+   66  ls
+   67  cd
+   68  ls\
+   69  ls
+   70  mkdir test
+   71  /tets
+   72  cd test
+   73  ls
+   74  git clone https://github.com/ianmendez/LXS2_II-2017_ian.git mi repo-remoto
+   75  git clone https://github.com/ianmendez/LXS2_II-2017_ian.git -mi repo-remoto
+   76  git clone https://github.com/ianmendez/LXS2_II-2017_ian.git mi-repo-remoto
+   77  ls
+   78  cd mi-repo-remoto
+   79  tree
+   80  git log
+   81  ls
+   82  ls -l
+   83  ifconfig >> misc/file1
+   84  git status
+   85  git commit -m "Modification desde la casa" 
+   86  git status
+   87  git push -u origin master
+   88  vim
+   89  ls -la
+   90  cd ..
+   91  rm -r mi-repo-remoto/
+   92  rm -rf mi-repo-remoto/
+   93  ls
+   94  ./monitor.sh
+   95  ls -l
+   96  ls
+   97  cd Documents
+   98  ls
+   99  cd LXS2_II-2017_ian/
+  100  LS
+  101  ls
+  102  git log
+  103  git pull origin master
+  104  git log
+  105  vim .gitignore
+  106  git status
+  107  git add .gitignore
+  108  git status
+  109  git commit -m "Agrego el gitignore del repo"
+  110  git push -u origin master
+  111  cd
+  112  cd Docuements
+  113  cd Documents
+  114  ls
+  115  cd LXS2_II-2017_ian/
+  116  ls
+  117  mkdir history
+  118  alias STm=`+%Y%m&d`
+  119  alias STm=`date +%Y%m&d`
+  120  alias STm=`date +%Y%m%d`
+  121  STm
+  122  alias
+  123  alias -x
+  124  alias -p
+  125  alias STm='date +%Y%m&d'
+  126  STm
+  127  alias -p
+  128  alias STm='date +%Y%m%d'
+  129  STm
+  130  var_time'STm'
+  131  var_time='STm'
+  132  tree
+  133  alias -p
+  134  alias STm='date +%Y5md_%H:%M'
+  135  alias -p
+  136  alias STm='date +%Ym%d_%H:%M'
+  137  alias -p
+  138  ls -l
+  139  \ls
+  140  tree
+  141  ls
+  142  reportes () { cd /;  cd/;  cd /
+  143  resportes () { cd /; 
+  144  reportes
+  145  reporte
+  146  reportes () { cd /usr/share/doc; echo "reportes: 'date +%Y%m%d'" > /tmp/reportes; date >> /tmp/reportes; pws >> /tmp/reportes; du -sh . >> /tmp/reportes; }
+  147  reportes
+  148  reportes () { cd /usr/share/doc; echo "reportes: 'date +%Y%m%d'" > /tmp/reportes; date >> /tmp/reportes; pwd >> /tmp/reportes; du -sh . >> /tmp/reportes; }
+  149  reportes
+  150  ls
+  151  cd
+  152  cd Documents
+  153  ls
+  154  LXS2_II-2017_ian/
+  155  cd LXS2_II-2017_ian/
+  156  reportes
+  157  cd
+  158  vim .bashrc
+  159  source .bashrc
+  160  reportes
+  161  cd
+  162  cat Downloads
+  163  cat /var/www/html/virt-inst.sh
+  164  cd Downloads
+  165  cat /var/www/html/virt-inst.sh
+  166  cd
+  167  history
+  168  cd Documents
+  169  ls
+  170  LXS2_II-2017_ian/
+  171  cd LXS2_II-2017_ian/
+  172  cd src/
+  173  ls -ls
+  174  echo '#!/bin/bash' > monitor.sh
+  175  cat monitor.sh
+  176  echo 'cd /usr/share/doc' >> monitor.sh
+  177  echo 'echo reportes:' >> monitor.sh
+  178  echo 'echo reportes: >> /tmp/reportes'>> monitor.sh
+  179  echo 'date >> /tmp/reportes' >> monitor.sh
+  180  echo 'pwd >> /tmp/reportes' >> monitor.sh
+  181  echo 'du -sh . >> /tmp/reportes' >> monitor.sh
+  182  rm /tmp/reportes
+  183  vim monitor.sh
+  184  git status
+  185  git add monitor.sh
+  186  git status
+  187  git commit -m "Cracion del script de monitoreo"
+  188  git push origin master
+  189  cd
+  190  ls
+  191  cd test
+  192  ls
+  193  git clone https://github.com/emvarg/LXS2_II-2017_evb.git repo-del-profe
+  194  tree
+  195  cd
+  196  cd Documents
+  197  cd LXS2_II-2017_ian/
+  198  cp ~/test/repo-del-profe/src/monitor.sh .
+  199  ls
+  200  tree
+  201  cd /src
+  202  cd src/
+  203  ls
+  204  gti status
+  205  git statu
+  206  cd ..
+  207  ls
+  208  rm monitor.sh
+  209  ls
+  210  git status
+  211  cd src/
+  212  ls
+  213  cd monitor.sh
+  214  cat monitor.sh
+  215  cd ..
+  216  ls
+  217  cd ..
+  218  ls
+  219  cd
+  220  ls
+  221  cd test
+  222  ls
+  223  cat repo-del-profe
+  224  cd repo-del-profe
+  225  ls
+  226  tree
+  227  cat monitor.sh
+  228  cd src/
+  229  ls
+  230  cat monitor.sh
+  231  cd
+  232  cd test
+  233  ls
+  234  cd
+  235  cd Documents
+  236  cd LXS2_II-2017_ian/
+  237  ls
+  238  tree
+  239  cd src/
+  240  ls
+  241  tree
+  242  cat monitor.sh
+  243  vim monitor.sh
+  244  reportes
+  245  cd
+  246  git status
+  247  cd Documents
+  248  ls
+  249  LXS2_II-2017_ian/
+  250  cd LXS2_II-2017_ian/
+  251  ls
+  252  cd src/
+  253  vim monitor.sh
+  254  chmod u +750
+  255  chmod  +750
+  256  chmod /usr + 750
+  257  chmod usr/ + 750
+  258  tree
+  259  cd ..
+  260  tree
+  261  ls
+  262  ls -l
+  263  cd src/
+  264  vim monitor.sh
+  265  ./monitor.sh
+  266  git status
+  267  git diff monitor.sh
+  268  chmod u+x monitor.sh
+  269  ./monitor.sh
+  270  vim monitor.sh
+  271  git commit
+  272  git add monitor.sh
+  273  git commit
+  274  cd
+  275  cd Documents
+  276  ls
+  277  LXS2_II-2017_ian/
+  278  cd LXS2_II-2017_ian/
+  279  LS
+  280  ls
+  281  cd src/
+  282  ls
+  283  cat monitor.sh
+  284  git push origin master
+  285  git commit
+  286  cd Documents
+  287  cd LXS2_II-2017_ian/
+  288  cd src/
+  289  git push origin master
+  290  ls
+  291  cat monitor.sh
+  292  vim monitor.sh
+  293  history
+  294  git status
+  295  git current monitor.sh
+  296  ls
+  297  git push origin master
+  298  cat monitor.sh
+  299  reportes
+  300  cd
+  301  reportes
+  302  pwd
+  303  clear
+  304  cd Documents
+  305  cd LXS2_II-2017_ian/
+  306  cd src/
+  307  vim monitor.sh
+  308  get git pull origin master
+  309  clear
+  310  cd ..
+  311  tree
+  312  ./monitor.sh
+  313  cd src/
+  314  ./monitor.sh
+  315  git commit -m 2mejore del script del resplado"
+  316  git commit -m "mejoae del script del resplado"
+  317  git push origin master
+  318  cd
+  319  if [ $USER = 'susadmin'  ]; then   echo 'El usuario puede continuar'; fi
+  320  if [ $USER = 'sysadmin'  ]; then   echo 'El usuario puede continuar'; fi
+  321  fi
+  322  cd Documents
+  323  cd LXS2_II-2017_ian/S
+  324  cd LXS2_II-2017_ian/
+  325  mkdir leson
+  326  vim leson
+  327  ls
+  328  rmdir leson
+  329  ls
+  330  rmdir leson
+  331  touch leson
+  332  ls
+  333  vim leson
+  334  mkdir parametros.sh
+  335  ls
+  336  rmdir parametros.sh
+  337  touch parametros.sh
+  338  vim parametros.sh
+  339  ls
+  340  history
+  341  git status
+  342  git add parametros.sh
+  343  git commit "revisiones de seguridad"
+  344  cd ..
+  345  ls
+  346  ls -la
+  347  cd history
+  348  ls
+  349  ls -l
+  350  cd Documents
+  351  cd LXS2_II-2017_ian/
+  352  cd history
+  353  ls
+  354  pwd
+  355  history > history-clase1
