@@ -559,3 +559,206 @@
   559  ls
   560  pwd
   561  history > history-clase1
+  562  ls
+  563  cd ..
+  564  cd history/
+  565  ls
+  566  mv history-clase1 history-clase1.txt
+  567  git status 
+  568  git add history-clase1.txt 
+  569  git status 
+  570  git commit -m "History de la clase 1"
+  571  git push origin master
+  572  history 
+  573  history | grep -E 'ls'
+  574  history | grep -E ' ls '
+  575  vim /etc/hosts
+  576  ls
+  577  #echo "This is the body of the email" | mail -s "This is the subject line" user@example.com
+  578  P6p3.aas
+  579  su - soporte
+  580  id
+  581  sudo apt install exim4
+  582  sudo vim /etc/exim4/update-exim4.conf.conf 
+  583  sudo dpkg-reconfigure exim4-config 
+  584  ls -l /etc/exim4/
+  585  tree /etc/exim4/conf.d/
+  586  sudo vim /etc/exim4/update-exim4.conf.conf 
+  587  sudo update-exim4.conf
+  588  sudo vim /etc/exim4/update-exim4.conf.conf 
+  589  history 
+  590  echo "Prueba de correo" | mail -s "Asunto del correo" uk3xd8@gmail.com
+  591  less /var/log/exim4/mainlog 
+  592  cat /var/log/exim4/mainlog 
+  593  ssh uk@lolo.emate.hcr
+  594  ssh uk@lolo.emate.ucr.ac.cr
+  595  cd Documentos/
+  596  ls
+  597  cd LXS2_II-2017_evb/
+  598  ls
+  599  cd src/
+  600  ;s
+  601  ls
+  602  vim export_clients.sh
+  603  cd /tmp/
+  604  ls
+  605  mkdir change-case
+  606  cd change-case/
+  607  ls
+  608  touch FILE
+  609  touch File1
+  610  touch fIlE2
+  611  touch fIle3
+  612  ls
+  613  cd 
+  614  find /tmp/change-case/
+  615  cd Documentos/
+  616  ls
+  617  cd LXS2_II-2017_evb/
+  618  ls
+  619  cd src/
+  620  ls
+  621  vim chage-case.sh
+  622  vim migracion.sh
+  623  ls
+  624  vim get-gif.sh 
+  625  cd Documentos/
+  626  cd LXS2_II-2017_evb/
+  627  ls
+  628  cd src/
+  629  ls
+  630  ls -l
+  631  chmod 750 modcase.sh 
+  632  ls -l
+  633  ./modcase.sh /tmp/change-case/
+  634  ls -l /tmp/change-case/
+  635  ./modcase.sh /tmp/change-case/
+  636  ls -l /tmp/change-case/
+  637  ./modcase.sh /tmp/change-case/
+  638  find /tmp/change-case/
+  639  find /tmp/change-case/ -type f
+  640  find /tmp/change-case/ -type d
+  641  find /tmp/change-case/ -type f
+  642  ./modcase.sh /tmp/change-case/
+  643  pushd  /tmp/change-case/
+  644  mv file File
+  645  ls
+  646  mv file1 FILE1
+  647  mv file2 FIlE2
+  648  mv file3 FIle2
+  649  ls
+  650  popd
+  651  ./modcase.sh /tmp/change-case/
+  652  for i in casa perro gato; do echo "Estos son los animales $i"; done
+  653  for i in mono perro gato; do echo "Estos son los animales $i"; done
+  654  cd sr
+  655  cd /srv/
+  656  cd 
+  657  cd Documentos/
+  658  ls
+  659  cd LXS2_II-2017_evb/
+  660  ls
+  661  cd src/
+  662  ls
+  663  vim migra.sh
+  664  mv migra.sh modcase.sh
+  665  vim modcase.sh 
+  666  ls
+  667  git status 
+  668  git add modcase.sh
+  669  gls
+  670  ls
+  671  cat parametros.sh 
+  672  vim ar
+  673  vim parametros.sh 
+  674  ./parametros.sh ksk ksk
+  675  vim parametros.sh 
+  676  ./parametros.sh ksk ksk
+  677  vim parametros.sh 
+  678  ./parametros.sh ksk ksk hedhdj
+  679  vim parametros.sh 
+  680  ssh uk@lolo.emate.ucr.ac.cr
+  681  echo hola | rev
+  682  cd /tmp/
+  683  ls
+  684  cd algo/
+  685  ls
+  686  mkdir folder1/folder{2,3,4}/arch{2,3}
+  687  mkdir -p folder1/folder{2,3,4}/arch{2,3}
+  688  tree
+  689  touch folder1/folder2/arch3/file1.conf
+  690  touch folder1/folder4/arch2/file1.conf
+  691  touch folder1/folder2/arch3/file2.conf
+  692  rm folder1/folder4/arch2/file1.conf
+  693  rm folder1/folder4/arch2/file3.conf
+  694  tree
+  695  touch folder1/folder3/file4.conf
+  696  tree
+  697  find . -name '*.conf'
+  698  find . -name '*.conf' | rev
+  699  find . -name '*.conf' | rev | cut -d\/ -f1 
+  700  find . -name '*.conf' | rev | cut -d\/ -f1  | rev
+  701  for i in `find . -name '*.conf' | rev | cut -d\/ -f1  | rev`; do mkdir $i; done
+  702  ls
+  703  ls -l
+  704  history 
+  705  for i in `find . -name '*.conf' | rev | cut -d\/ -f1  | rev`; do
+  706  ifconfig 
+  707  seq 1 5
+  708  seq 1 2 10
+  709  seq 1 5
+  710  cd Documentos/
+  711  ls
+  712  cd LXS2_II-2017_evb/
+  713  ls
+  714  ls -la
+  715  cd src/
+  716  ls
+  717  git status 
+  718  vim chage-case.sh 
+  719  ls
+  720  ./parametros.sh mono gato perro
+  721  ls
+  722  vim get-gif.sh 
+  723  vim migracion.sh 
+  724  ls
+  725  git status 
+  726  git add parametros.sh get-gif.sh migracion.sh 
+  727  git commit -m "Agrego scripts de la clase de bash"
+  728  git push origin master 
+  729  ls
+  730  vim export_clients.sh 
+  731  cd /tmp/
+  732  mkdir algo/cosa
+  733  mkdir -p algo/cosa
+  734  tree algo/
+  735  cd -
+  736  ls
+  737  vim export_clients.sh 
+  738  ls
+  739  cat monitor.sh 
+  740  vim get-gif.sh 
+  741  sudo apt install mysql-server
+  742  netstat -latun
+  743  netstat -latu
+  744  netstat -latu | grep ESCU
+  745  sudo apt install nmap
+  746  ip -4 addr
+  747  nmap 10.124.18.36
+  748  sudo apt install openssh-server
+  749  nmap 10.124.18.36
+  750  nmap localhost
+  751  mysql -u root -p
+  752  dpkg --get-selections | grep mysql
+  753  sudo mysql_secure_installation 
+  754  mysql -u root -p
+  755  cd Documentos/
+  756  ls
+  757  cd LXS2_II-2017_evb/
+  758  cd history/
+  759  ls
+  760  cd Documentos/LXS2_II-2017_evb/
+  761  ls
+  762  cd history/
+  763  ls
+  764  history > history-clase2.txt
