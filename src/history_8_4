@@ -1,0 +1,113 @@
+    1  sudo passwd estudiante 
+    2  su estudiante
+    3  exit
+    4  sudo apt-get install mysql-server mysql-client
+    5  mysql -u root -p
+    6  cat .mysql_history 
+    7  mysql -u root -p
+    8  cat .mysql_history 
+    9  mysql -u root -p
+   10* cat .mysql_history | sed 's/\\040/ /g' > history.mysqla
+   11  cat .mysql_history 
+   12  alias  q040="cat ~/ .mysql_history | sed 's/\\\040/ /g' > /tmp/history.mysql"
+   13  cat .mysql_history 
+   14  mysql -u root -p
+   15  alias  q040="cat ~/.mysql_history | sed 's/\\\040/ /g' > /tmp/history.mysql"
+   16  cat .mysql_history 
+   17  cat /tmp/hisotry.mysql
+   18  cat /tmp/history.mysql
+   19  mysql -u root -p
+   20  mysqldump Work > work.mysql
+   21  mysqldump Work > Work.mysql
+   22  ls -a
+   23  ls
+   24  cd Do
+   25  cd Documents/
+   26  ls
+   27  cd 
+   28  ls
+   29  cat .mysql_history 
+   30  ls
+   31  cd Documents/
+   32  ls
+   33  git clone https://github.com/emvarg/LXS2_II-2017_evb.git
+   34  cd LXS2_II-2017_evb/
+   35  }ls
+   36  lñs
+   37  ls
+   38  cp sql/my.cnf $HOME/.my.cnf
+   39  vim $HOME/.my.cnf
+   40  mysql
+   41  ls
+   42  cd ..
+   43  }lks
+   44  cd 
+   45  history 
+   46  mysqldump Wo > Work.mysql
+   47  mysqldump Work > Work.mysql
+   48  vim Work.mysql
+   49  mysql
+   50  su - root
+   51  mysql
+   52  cd Docuemts
+   53  cd Documents
+   54  ls
+   55  git clone LXS2_II-2017_ian
+   56  git clone https://github.com/ianmendez/LXS2_II-2017_ian.git
+   57  ls
+   58  cd
+   59  cat /etc/passwd
+   60  chfn
+   61  useradd test_user
+   62  su - root
+   63  sudo adduser usuario1
+   64  grep usuario /etc/passwd
+   65  ls ..
+   66  su - usuario1
+   67  sudo useradd usuario2
+   68  tail /etc/passwd
+   69  sudo tail /etc/shadow
+   70  sudo passwd usuario2
+   71  sudo tail /etc/shadow
+   72  ls ..
+   73  sudo mkdir ../usuario2
+   74  sudo chown usuario2:usuario2 -R ../usuario2
+   75  cp /etc/skel/.*
+   76  sudo -r cp /etc/skel/* ../usuario2
+   77  sudo cp -r /etc/skel/* ../usuario2
+   78  ls -la ../suario2/
+   79  ls -la ../usuario2/
+   80  sudo vim /etc/passwd
+   81  su -usuario
+   82  su - usuario2
+   83* 
+   84  ls /tmp/
+   85  ls /tmp/usario3/ -a
+   86  ls /tmp/usuario3/ -a
+   87  su -usuario
+   88  su - usuario
+   89  sudo passwd usuario3
+   90  su - usuario3
+   91  sudo passwd -e usuario3
+   92  su - usuario2.
+   93  git log
+   94  cd Documets
+   95  cd Documents/LXS2_II-2017_ian/
+   96  ls
+   97  cd ..
+   98  LXS2_II-2017_evb/
+   99  ls
+  100  cd LXS2_II-2017_evb/
+  101  ls
+  102  git status
+  103  git commit -u origin master
+  104  git push origin master
+  105  cd ..
+  106  cd LXS2_II-2017_ian/
+  107  git push -u origin master
+  108  clear
+  109  cd 
+  110  ls
+  111  cp history.mysql Documents/LXS2_II-2017_ian/src/
+  112  history > history8/4
+  113  history > history_8_4

@@ -1,0 +1,22 @@
+_HiStOrY_V2_
+CREATE DATABASE Work;
+USE Work;
+CREATE TABLE People (First text, Last text, PersonID int primary 
+key);
+CREATE TABLE People (First text, Last text, PersonID int primary  key);
+CREATE TABLE Projects (Project text, ProjectID CHAR (3) primary 
+key);
+CREATE TABLE Projects (Project text, ProjectID CHAR (3) primary  key);
+CREATE TABLE PeopleProjects (PersonID int, ProjectID CHAR (3), 
+PRIMARY KEY (PersonID, ProjectID));
+CREATE TABLE PeopleProjects (PersonID int, ProjectID CHAR (3),  PRIMARY KEY (PersonID, ProjectID));
+SHOW TABLES;
+show databases
+show databases;
+show databases show databases;
+SHOW DATABASES;
+exit
+SHOW DATABASES;
+exit
+SHOW DATABASES;
+exit
